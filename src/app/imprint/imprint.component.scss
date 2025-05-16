@@ -1,0 +1,12 @@
+.imprint-container {
+    height: calc(100vh - 140px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > p {
+        font-size: 160px;
+        text-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+    }
+}

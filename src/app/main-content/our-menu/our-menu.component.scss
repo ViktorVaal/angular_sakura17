@@ -1,0 +1,14 @@
+.our-menu-container {
+    background-image: url(./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 160px;
+    > h2 {
+        color: #9F0908;
+        font-size: 80px;
+    }
+}

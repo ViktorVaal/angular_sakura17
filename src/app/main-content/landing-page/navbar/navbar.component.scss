@@ -1,0 +1,58 @@
+@import './../../../../styles.scss';
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 160px 0 160px;
+    height: 112px;
+    @include dFlex(space-between);
+
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+
+    >div {
+        display: flex;
+        align-items: center;
+         @include dFlex($g: 16px);
+    }
+}
+
+.navbar {
+    display: flex;
+    gap: 16px;
+
+    >a {
+        &:hover {
+            color: $dark-red;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    @include fontColor(white)
+}
+
+.phone-btn {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    @include borderStyling(solid);
+    background-color: $dark-red;
+
+    >img {
+        height: 16px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        scale: 1.05;
+        background-color: #f50d0d;
+    }
+}

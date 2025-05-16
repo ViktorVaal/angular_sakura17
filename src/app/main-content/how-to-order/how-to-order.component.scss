@@ -1,0 +1,35 @@
+.how-to-order-container {
+    padding: 120px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    > h2 {
+        font-size: 80px;
+        color: #9F0908;
+    }
+}
+
+.how-to-order-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        > div {
+            font-family: Economica !important;
+            font-size: 56px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 260px;
+            text-align: center;
+        }
+}
+
+img {
+    width: 128px;
+}
+

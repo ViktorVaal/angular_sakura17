@@ -1,0 +1,42 @@
+.tonkatsu-ramen {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+    >div {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+span {
+    font-weight: bold;
+    font-family: Economica;
+    font-size: 56px;
+}
+
+img {
+    width: 352px;
+    height: 352px;
+}
+
+table {
+    display: flex;
+    gap: 160px;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #675E54;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 32px;
+}
